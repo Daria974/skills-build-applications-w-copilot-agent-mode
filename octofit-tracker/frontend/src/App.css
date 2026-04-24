@@ -1,0 +1,118 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ef 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  width: auto;
+  pointer-events: none;
+  margin-right: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(12px + 2vmin);
+  color: #fff;
+  padding: 0 2rem;
+}
+
+
+.App-link, .navbar a, .nav-link {
+  color: #1e90ff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.App-link:hover, .navbar a:hover, .nav-link.active {
+  color: #0d47a1 !important;
+  text-decoration: underline;
+}
+
+/* Table styling */
+table.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(30,60,114,0.08);
+  overflow: hidden;
+}
+table.table thead {
+  background: #1e3c72;
+  color: #fff;
+}
+table.table tbody tr:nth-child(even) {
+  background: #f0f4f9;
+}
+
+/* Button styling */
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #1e90ff 0%, #2a5298 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #0d47a1 0%, #1e3c72 100%);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #1e3c72;
+  font-weight: 700;
+}
+
+/* Navigation */
+.navbar, .navbar-light {
+  background: linear-gradient(90deg, #e0e7ef 0%, #f0f4f9 100%) !important;
+  border-bottom: 2px solid #1e90ff;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #1e3c72 !important;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+/* Card styling */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(30,60,114,0.08);
+  border: none;
+}
+
+/* Modal styling */
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(30,60,114,0.15);
+}
+
+body {
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ef 100%);
+  color: #2a2a2a;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
